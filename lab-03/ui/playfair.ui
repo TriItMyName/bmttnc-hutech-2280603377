@@ -35,7 +35,7 @@
      </font>
     </property>
     <property name="text">
-     <string>CAESAR CIPHER</string>
+     <string>PLAYFAIR CIPHER</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -131,7 +131,7 @@
       <x>470</x>
       <y>460</y>
       <width>101</width>
-      <height>31</height>
+<height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -145,7 +145,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>27</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
