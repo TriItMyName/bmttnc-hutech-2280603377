@@ -5,7 +5,11 @@ if not os.path.exists('cipher/ecc/keys'):
 
 class ECCCipher:
     def __init__(self):
-        pass
+        super().__init__()
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self)
+        self.ui.btnSign.clicked.connect(self.call_api_sign)  # Corrected attribute name
+        self.ui.btnVerify.clicked.connect(self.call_api_verify)  # Corrected attribute name
 
     def generate_keys(self):
         sk = ecdsa.SigningKey.generate()  # Generate private key

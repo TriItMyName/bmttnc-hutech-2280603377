@@ -71,7 +71,7 @@ class Ui_MainWindow(object):
         self.btn_encrypt.setText(_translate("MainWindow", "Encrypt"))
         self.label.setText(_translate("MainWindow", "VIGENERE CIPHER"))
         self.label_2.setText(_translate("MainWindow", "Plain Text :"))
-        self.btn_decrypt.setText(_translate("MainWindow", "Decrypt"))
+        self.btn_decrypt.setText(_translate("MainWindow", "Decrypy"))
         self.label_4.setText(_translate("MainWindow", "CipherText : "))
 
 

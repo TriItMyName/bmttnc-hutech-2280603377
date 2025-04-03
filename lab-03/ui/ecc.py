@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file './ui/ecc.ui'
+# Form implementation generated from reading ui file 'ecc.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #
@@ -90,5 +90,6 @@ if __name__ == "__main__":
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
+    print(dir(ui))
     MainWindow.show()
     sys.exit(app.exec_())
